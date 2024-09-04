@@ -14,7 +14,7 @@ app.use(cors({ origin: '*' }));
 app.use(express.json()); 
 
 app.get('/', (req, res) => {
-  res.send('Hello World! kya hai');
+  res.send('Hello World! kya hai samjhe');
 });
 
 Connect_db().catch(err => console.error("Database connection error: ", err));
