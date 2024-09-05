@@ -7,7 +7,7 @@ const userSchema = new mongoose.Schema({
   facebookId: {
     type: String,
     required: true,
-    unique: true // Ensure each Facebook ID is unique
+    unique: true //
   },
   displayName: {
     type: String,
