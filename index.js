@@ -1,20 +1,16 @@
 
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 27795a404727fbc61810aee6f9f7696993881d23
 import express from 'express';
 import cors from 'cors';
 import Connect_db from './Database/data.js';
 import 'dotenv/config';
 import passport from 'passport';
 import session from 'express-session';
-<<<<<<< HEAD
+
 import './passport.js'; // Import passport configuration
-=======
-import './password.js'; // Import passport configuration
->>>>>>> 27795a404727fbc61810aee6f9f7696993881d23
+
+import './password.js'; // Import passport configuratio
+
 
 const app = express();
 const port = process.env.PORT || 4000;
@@ -90,13 +86,9 @@ app.listen(port, () => {
 
 
 
-<<<<<<< HEAD
 
 
 
 
 
 
-
-=======
->>>>>>> 27795a404727fbc61810aee6f9f7696993881d23
